@@ -3,13 +3,29 @@ body{
     font-family: 'Montserrat', 'sans-serif';
 }
 
-ul{
-    list-style-type: none;
+#my-todo-list{
+    border-radius: 10px;
 }
+
+#my-todo-list > ul{
+    list-style-type: none;
+    
+}
+
+#my-todo-list > ul li{
+    line-height: 60px;
+    border-radius: 5px;
+}
+
 .fa-xbox{
     cursor: pointer;
     margin-top: 4px;
 }
+
+.my-bg-green{
+    background-color: greenyellow;
+}
 .text-line{
+    color: red;
     text-decoration: line-through;
 }
