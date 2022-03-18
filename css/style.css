@@ -10,3 +10,6 @@ ul{
     cursor: pointer;
     margin-top: 4px;
 }
+.text-line{
+    text-decoration: line-through;
+}

@@ -23,7 +23,7 @@ const app = new Vue({
             if(todoContent.trim() != ""){
                 const newtodoElement = {
                     text: todoContent.trim(),
-                    done: false
+                    done: true
                 }
                 this.todoList.push(newtodoElement);
                 this.newTodoContent = "";
@@ -37,7 +37,14 @@ const app = new Vue({
             } else {
                 console.warn('Vuoi rimuover un oggeto che non esiste')
             }
-        }
+        },
+        // checkedTodoElement(){
+        //     if(this.todoList.done == false){
+
+        //     }
+        // }
 
     }
 })
+
+

@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-12 bg-light">
                     <ul v-for="(element, index) in todoList" class="text-start p-2">
-                        <li class="d-flex justify-content-between">
+                        <li class="d-flex justify-content-between"  @click="element.done = !element.done" :class="(!element.done) ? 'text-line' : '' ">
                             <span>{{ element.text }}</span>
                             <i class="fa-brands fa-xbox text-success fs-2" @click="removeTodoElement(index)"></i>
                         </li>
