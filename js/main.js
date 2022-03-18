@@ -1,20 +1,7 @@
 const app = new Vue({
     el: '#app',
     data: {
-        todoList: [
-            // {
-            //     text: '',
-            //     done: false  
-            // },
-            // {
-            //     text: '',
-            //     done: false  
-            // },
-            // {
-            //     text: '',
-            //     done: false  
-            // },
-        ],
+        todoList: [],
         newTodoContent: "",
     },
 
