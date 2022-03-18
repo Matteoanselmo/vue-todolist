@@ -38,12 +38,6 @@ const app = new Vue({
                 console.warn('Vuoi rimuover un oggeto che non esiste')
             }
         },
-        // checkedTodoElement(){
-        //     if(this.todoList.done == false){
-
-        //     }
-        // }
-
     }
 })
 
